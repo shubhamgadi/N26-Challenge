@@ -4,7 +4,7 @@ public class Statistics {
 
 	private double sum;
 	private double count;
-	private double average;
+	private double avg;
 	private double max;
 	private double min;
 
@@ -24,14 +24,6 @@ public class Statistics {
 		this.count = count;
 	}
 
-	public double getAverage() {
-		return average;
-	}
-
-	public void setAverage(double average) {
-		this.average = average;
-	}
-
 	public double getMax() {
 		return max;
 	}
@@ -48,10 +40,17 @@ public class Statistics {
 		this.min = min;
 	}
 
+	public double getAvg() {
+		return avg;
+	}
+
+	public void setAvg(double avg) {
+		this.avg = avg;
+	}
+
 	@Override
 	public String toString() {
-		return "Report [sum=" + sum + ", count=" + count + ", average=" + average + ", max=" + max + ", min=" + min
-				+ "]";
+		return "Statistics [sum=" + sum + ", count=" + count + ", avg=" + avg + ", max=" + max + ", min=" + min + "]";
 	}
 
 }

@@ -64,7 +64,7 @@ public class StatisticsServiceImpl implements StatisticsService {
 		report.setCount(count);
 		report.setSum(sum);
 		double average = count == 0 ? count : sum / count;
-		report.setAverage(average);
+		report.setAvg(average);
 		return report;
 	}
 

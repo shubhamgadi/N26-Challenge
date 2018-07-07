@@ -29,7 +29,7 @@ public class StatisticsServiceImplTest {
 		assertEquals(new Double(1), new Double(statis.getMin()));
 		assertEquals(new Double(3), new Double(statis.getMax()));
 		assertEquals(new Double(6), new Double(statis.getSum()));
-		assertEquals(new Double(2), new Double(statis.getAverage()));
+		assertEquals(new Double(2), new Double(statis.getAvg()));
 		assertEquals(new Double(3), new Double(statis.getCount()));
 
 	}
@@ -51,7 +51,7 @@ public class StatisticsServiceImplTest {
 		assertEquals(new Double(0), new Double(statis.getMin()));
 		assertEquals(new Double(0), new Double(statis.getMax()));
 		assertEquals(new Double(0), new Double(statis.getSum()));
-		assertEquals(new Double(0), new Double(statis.getAverage()));
+		assertEquals(new Double(0), new Double(statis.getAvg()));
 		assertEquals(new Double(0), new Double(statis.getCount()));
 
 	}
